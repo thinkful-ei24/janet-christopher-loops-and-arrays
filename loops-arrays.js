@@ -120,6 +120,8 @@ const firstCode = 'noggin oreo the moon time tele steed his tent apollo her live
 const inputArray = firstCode.split(' ');
 
 const decoded = inputArray.reduce((total, val) => val.length === 3 ? total += ' ' : total += val[val.length-1].toUpperCase(),'');
+
+console.log(decoded);
 // if (val.length === 3){
 //   total += " ";
 // } else {
@@ -129,7 +131,7 @@ const decoded = inputArray.reduce((total, val) => val.length === 3 ? total += ' 
 // return total;
 // }, '' );
 
-console.log(decoded);
+
 
 // console.log(ninjaTurtles.reduce((a, b) => a + b));
 // console.log(ninjaTurtles);
